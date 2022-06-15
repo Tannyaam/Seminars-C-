@@ -49,7 +49,7 @@ void Find3Degree(int N)
         int i = 1;
         while (i <= N)
         {
-            Console.Write(i * i * i + " ");
+            Console.Write(Math.Pow(i, 3) + " ");
             i ++;
         }
     }
