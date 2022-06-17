@@ -54,9 +54,9 @@ void FindSquareFrom1ToN (int N)
 Console.Write("Введите число ");
 int N = Convert.ToInt32(Console.ReadLine());
 FindSquareFrom1ToN (N);
-*/
 
 double FindLenght(double xA, double yA, double xB, double yB)
 {
     Math.Sqrt((xB - xA) * (xB - xA) + Math.Pow((yB - yA),2)); // SQRT - получение корня, Pow - возведение в указанную степень
 }
+*/
