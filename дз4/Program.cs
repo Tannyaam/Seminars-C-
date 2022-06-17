@@ -21,7 +21,7 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 Console.Write(num1 + " в степени " + num2 + " равно " + FindDegree(num1, num2));
 */
 
-// Задача 2 (Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.)
+/* Задача 2 (Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.)
 
 int size = 8;
 int [] array = new int [size];
@@ -36,6 +36,16 @@ for (int i = 0; i < size; i++)
 {
     array[i] = new Random().Next(num1, (num2 + 1));
 }
+
+for (int i = 0; i < size; i++)
+{
+    Console.Write(array[i] + " ");
+}
+*/
+
+// /* Задаем числа в самой программе
+int size = 8;
+int [] array = {1, 2, 5, 7, 19, 3, 44, 3};
 
 for (int i = 0; i < size; i++)
 {
