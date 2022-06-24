@@ -64,6 +64,7 @@ double FindDiffBetweenMinAndMax(double[] array)
     }
 
     dif = max - min;
+    dif = Math.Round(dif, 2);
     return dif;
 
 }
@@ -75,7 +76,8 @@ double[] CreateRandomArrayDouble(int size, int min, int max)
     for (int i = 0; i < size; i++)
     {
         newArray[i] = new Random().NextDouble() * (max - min) + min;
-        Console.Write(newArray[i] + " ");
+        newArray[i] = Math.Round(newArray[i], 2);
+        Console.Write(newArray[i] + "  ");
     }
     
     Console.WriteLine();
